@@ -1,0 +1,362 @@
+/* ================================
+   PROJECT DETAIL PAGE
+================================ */
+
+.project-detail-hero {
+    padding: 180px 8% 90px;
+    background:
+        radial-gradient(
+            circle at 80% 20%,
+            rgba(0, 207, 255, 0.12),
+            transparent 35%
+        ),
+        #030303;
+}
+
+.project-detail-container {
+    width: min(1200px, 100%);
+    margin: auto;
+}
+
+.project-category {
+    display: inline-block;
+
+    color: var(--cyan);
+
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 20px;
+}
+
+.project-detail-hero h1 {
+    font-family: "Space Grotesk", sans-serif;
+
+    font-size: clamp(50px, 8vw, 100px);
+
+    line-height: 0.95;
+
+    margin-bottom: 30px;
+}
+
+.project-detail-hero p {
+    max-width: 700px;
+
+    color: var(--gray);
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* ================================
+   PROJECT PREVIEW
+================================ */
+
+.project-preview-section {
+    padding: 30px 6% 100px;
+
+    background: #030303;
+}
+
+.project-preview {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.project-preview-placeholder {
+    min-height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    background:
+        radial-gradient(
+            circle at 50% 20%,
+            rgba(8,107,255,0.35),
+            transparent 45%
+        ),
+        #0d0f14;
+
+    color: rgba(255,255,255,0.25);
+
+    font-size: 60px;
+    font-weight: 700;
+}
+
+
+/* ================================
+   INFORMATION
+================================ */
+
+.project-information {
+    padding: 120px 8%;
+
+    background: #08090c;
+}
+
+.project-info-grid {
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 1.5fr 1fr;
+
+    gap: 100px;
+}
+
+.section-label {
+    display: block;
+
+    color: var(--cyan);
+
+    font-size: 12px;
+    font-weight: 700;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 20px;
+}
+
+.project-description h2 {
+    font-family: "Space Grotesk", sans-serif;
+
+    font-size: clamp(35px, 5vw, 60px);
+
+    line-height: 1.05;
+
+    margin-bottom: 30px;
+}
+
+.project-description p {
+    color: var(--gray);
+
+    line-height: 1.8;
+
+    margin-bottom: 20px;
+
+    font-size: 16px;
+}
+
+
+/* ================================
+   DETAILS
+================================ */
+
+.project-details {
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.detail-item {
+    padding: 25px 0;
+
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+.detail-item span {
+    color: var(--gray);
+
+    font-size: 11px;
+
+    letter-spacing: 2px;
+}
+
+.detail-item strong {
+    font-size: 15px;
+
+    font-weight: 500;
+}
+
+
+/* ================================
+   FEATURES
+================================ */
+
+.project-features {
+    padding: 120px 8%;
+}
+
+.project-features h2 {
+    font-family: "Space Grotesk", sans-serif;
+
+    font-size: clamp(35px, 5vw, 60px);
+
+    margin-bottom: 60px;
+}
+
+.feature-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.feature-card {
+    padding: 40px;
+
+    min-height: 250px;
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    border-radius: 16px;
+
+    background: #0d0f14;
+
+    transition: 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+
+    border-color: rgba(0,207,255,0.4);
+}
+
+.feature-card span {
+    color: var(--cyan);
+
+    font-size: 13px;
+}
+
+.feature-card h3 {
+    font-family: "Space Grotesk", sans-serif;
+
+    font-size: 24px;
+
+    margin: 30px 0 15px;
+}
+
+.feature-card p {
+    color: var(--gray);
+
+    line-height: 1.7;
+}
+
+
+/* ================================
+   TECHNOLOGIES
+================================ */
+
+.technologies-section {
+    padding: 100px 8%;
+
+    background: #08090c;
+}
+
+.technology-list {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+}
+
+.technology-list span {
+    padding: 14px 22px;
+
+    border: 1px solid rgba(255,255,255,0.1);
+
+    border-radius: 50px;
+
+    color: #fff;
+
+    background: #0d0f14;
+
+    font-size: 14px;
+}
+
+
+/* ================================
+   PROJECT LINKS
+================================ */
+
+.project-links-section {
+    padding: 70px 8%;
+}
+
+.project-links {
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: flex;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+}
+
+.secondary-btn {
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 14px 28px;
+
+    border: 1px solid rgba(255,255,255,0.2);
+
+    border-radius: 8px;
+
+    color: #fff;
+
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+.secondary-btn:hover {
+    border-color: var(--cyan);
+
+    color: var(--cyan);
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 800px) {
+
+    .project-detail-hero {
+        padding: 150px 6% 70px;
+    }
+
+    .project-preview-placeholder {
+        min-height: 350px;
+
+        font-size: 35px;
+    }
+
+    .project-info-grid {
+        grid-template-columns: 1fr;
+
+        gap: 60px;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-information,
+    .project-features {
+        padding: 80px 6%;
+    }
+
+}
